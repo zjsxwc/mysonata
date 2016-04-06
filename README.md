@@ -19,14 +19,17 @@ A sonata try
 
 * 批量创建
 
-`app/console doctrine:fixtures:load`
+```bash
+app/console doctrine:fixtures:load`
+```
 
 * 手动创建
 
-`app/console fos:user:create username emai@example.com password`
+```bash
+app/console fos:user:create username emai@example.com password`
 
-`app/console fos:user:promote username ROLE_SONATA_ADMIN`
-
+app/console fos:user:promote username ROLE_SONATA_ADMIN`
+```
 
 >比如我创建个用户名为zjsxwc密码为heiheihei的admin账号：
 
@@ -38,5 +41,7 @@ A sonata try
 
 3.创建软链
 
+```bash
 app/console assets:install --symlink --relative web
+```
 
