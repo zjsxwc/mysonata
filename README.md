@@ -17,10 +17,15 @@ A sonata try
 
 2.创建用户数据
 
-*批量创建 `app/console doctrine:fixtures:load`
-*手动创建 
-        `app/console fos:user:create username emai@example.com password`
-        `app/console fos:user:promote username ROLE_SONATA_ADMIN`
+* 批量创建
+
+`app/console doctrine:fixtures:load`
+
+* 手动创建
+
+`app/console fos:user:create username emai@example.com password`
+
+`app/console fos:user:promote username ROLE_SONATA_ADMIN`
 
 
 >比如我创建个用户名为zjsxwc密码为heiheihei的admin账号：
@@ -34,9 +39,4 @@ A sonata try
 3.创建软链
 
 app/console assets:install --symlink --relative web
-
-
-
-
-
 
