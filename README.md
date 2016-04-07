@@ -20,7 +20,7 @@ A sonata try
 * 批量创建
 
 ```bash
-app/console doctrine:fixtures:load`
+app/console doctrine:fixtures:load
 ```
 
 * 手动创建
